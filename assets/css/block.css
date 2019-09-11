@@ -1,0 +1,118 @@
+.page-body{
+	padding: 50px 0;
+	background: #F7F7F7;
+	overflow: hidden;
+}
+.page-top{
+	background: url('../images/bg-top.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover; 
+}
+.page-top,.page-top .bottom{
+	position: relative;
+}
+.page-top .background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(185,0,18,0.5);
+}
+.page-top .top{
+	padding: 50px 0;
+}
+.page-top h1{
+	font-size: 18px;
+	font-weight: 800;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+.page-top .bottom{
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	background: rgba(185,0,18,0.9);
+}
+.box-search{
+	padding: 1px;
+	margin-bottom: 10px;
+	background: #FFFFFF;
+}
+.box-search .btn-search,.box-search input{
+	border-radius: 0;
+	border: 0;
+	outline: none;
+}
+.box-search .btn-search{
+	color: #FFFFFF;
+	font-weight: 300;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: #b90012;
+}
+.button-question{
+	display: inline-block;
+	color: #b90012;
+	padding: 10px 15px;
+	background: #FFFFFF;
+	text-transform: uppercase;
+}
+.box-control{
+	padding: 10px;
+	overflow: hidden;
+	background: #eeeeee;
+}
+.box-control .cbo-category{
+	float: left;
+}
+.box-control .cbo-category .combobox{
+	width: 280px;
+}
+.box-control .box-tab{
+	float: right;
+}
+.box-control .box-tab li.active>a{
+	color: #FFFFFF;
+	background: #b90012;
+}
+.box-control .box-tab li>a:hover {
+	background: #b90012;
+	color: #FFFFFF !important;
+}
+.box-control .box-tab li>a {
+	border-radius: 0;
+	padding: 0px 15px;
+}
+.block-post .item{
+	overflow: hidden;
+	background: #FFFFFF;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 8px;
+	border: 1px solid #eeeeee;
+}
+.block-post .item .left{
+	padding: 12px;
+	padding-right: 210px;
+}
+.block-post .item .thumb{
+	float: right;
+	width: 195px;
+}
+.block-post .title{
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.block-post .tag{
+	color: #b90012;
+	font-weight: 700;
+}
